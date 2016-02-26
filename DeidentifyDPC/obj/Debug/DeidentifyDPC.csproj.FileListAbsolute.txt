@@ -1,0 +1,16 @@
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\bin\Debug\DeidentifyDPC.exe.config
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.exe
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.pdb
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\bin\Debug\DeidentifyDPC.exe
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\bin\Debug\DeidentifyDPC.pdb
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.csprojResolveAssemblyReference.cache
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.Form1.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.Properties.Resources.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.csproj.GenerateResource.Cache
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.TypeSet.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.SettingDialog.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\bin\Debug\DeidentifyDPC.exe.manifest
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\bin\Debug\DeidentifyDPC.application
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.TrustInfo.xml
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.exe.manifest
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\DeidentifyDPC\obj\Debug\DeidentifyDPC.application

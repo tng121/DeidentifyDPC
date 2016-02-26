@@ -1,0 +1,8 @@
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DeidentifyDPC.exe.config
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DeidentifyDPC.exe
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DeidentifyDPC.pdb
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DeidentifyDPC.Form1.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DeidentifyDPC.Properties.Resources.resources
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DeidentifyDPC.exe
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DeidentifyDPC.pdb
