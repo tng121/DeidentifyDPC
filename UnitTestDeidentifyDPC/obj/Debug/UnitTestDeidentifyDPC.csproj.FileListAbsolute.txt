@@ -1,0 +1,7 @@
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\obj\Debug\UnitTestDeidentifyDPC.csprojResolveAssemblyReference.cache
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\bin\Debug\UnitTestDeidentifyDPC.dll
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\bin\Debug\UnitTestDeidentifyDPC.pdb
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\bin\Debug\DeidentifyDPC.exe
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\bin\Debug\DeidentifyDPC.pdb
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\obj\Debug\UnitTestDeidentifyDPC.dll
+C:\Users\rnakashi\Documents\Visual Studio 2013\Projects\DeidentifyDPC\UnitTestDeidentifyDPC\obj\Debug\UnitTestDeidentifyDPC.pdb

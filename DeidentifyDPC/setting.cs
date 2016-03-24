@@ -195,7 +195,8 @@ namespace DeidentifyDPC
             types.Add("Dn", new FileType("Dn", @"Dn_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
             types.Add("EFn", new FileType("EFn", @"EFn_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
             types.Add("EFg", new FileType("EFg", @"EFg_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
-            types.Add("FF1(H25)", new FileType("FF1(H25)", "", 4, 6, 0, "", 7, 0 ,"", 10));
+            types.Add("Hn", new FileType("Hn", @"Hn_[0-9]{9}_[0-9]{4}\.txt", 3, 0, 0, "", 0, 0, "", 5));
+            types.Add("FF1(H25)", new FileType("FF1(H25)", "", 4, 6, 0, "", 7, 0, "", 10));
             encryptId = true;
             ambiguousBirthDate = false;
             ambiguousPostalCode = false;
@@ -242,38 +243,38 @@ namespace DeidentifyDPC
     public class FileType : IExtensibleDataObject
     {
         [DataMember]
-        public string typeName { get; private set; }
+        public string typeName { get; set; }
 
         [DataMember]
-        public string namingRule { get; private set; }
+        public string namingRule { get; set; }
 
         [DataMember]
-        public int idColumn { get; private set; }
+        public uint idColumn { get; set; }
 
         [DataMember]
-        public int birthDateColumn { get; private set; }
+        public uint birthDateColumn { get; set; }
 
         [DataMember]
-        public int birthDateConditionColumn { get; private set; }
+        public uint birthDateConditionColumn { get; set; }
 
         [DataMember]
-        public string birthDateConditionMatch { get; private set; }
+        public string birthDateConditionMatch { get; set; }
 
         [DataMember]
-        public int postalCodeColumn { get; private set; }
+        public uint postalCodeColumn { get; set; }
 
         [DataMember]
-        public int postalCodeConditionColumn { get; private set; }
+        public uint postalCodeConditionColumn { get; set; }
 
         [DataMember]
-        public string postalCodeConditionMatch { get; private set; }
+        public string postalCodeConditionMatch { get; set; }
 
         [DataMember]
-        public int admissionDateColumn { get; private set; }
+        public uint admissionDateColumn { get; set; }
 
         public ExtensionDataObject ExtensionData { get; set; }
 
-        public FileType(string tn, string nr, int ic, int bdc, int bdcc, string bdcm, int pcc, int pccc, string pccm, int addc)
+        public FileType(string tn, string nr, uint ic, uint bdc, uint bdcc, string bdcm, uint pcc, uint pccc, string pccm, uint addc)
         {
             this.typeName = tn;
             this.namingRule = nr;

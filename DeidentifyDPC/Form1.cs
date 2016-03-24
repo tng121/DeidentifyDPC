@@ -153,7 +153,7 @@ namespace DeidentifyDPC
         private void button4_Click(object sender, EventArgs e)
         {
             TypeSet ts = new TypeSet();
-            ts.setTypes(this.types_.Keys.ToList());
+            ts.initialize();
 
             DialogResult tsRes = ts.ShowDialog();
             string ftname = ts.selectedFileTypeName();
@@ -162,13 +162,22 @@ namespace DeidentifyDPC
                 ts.Dispose();
                 return;
             }
-
-            FileType selft = this.types_[ftname];
             ts.Dispose();
+
+            SettingData sd = SettingData.load();
+            this.types_ = sd.types;
+            FileType selft = this.types_[ftname];
 
             for (int i = listBox1.Items.Count - 1; i >= 0; i-- )
             {
                 if(listBox1.GetSelected(i)) setTypeToList(selft, i);
+
+                //選ばれてたtypesが消されてたときの処理
+                string tn = getTypeNameFromList(listBox1.Items[i].ToString());
+                if (!this.types_.ContainsKey(tn))
+                {
+                    setTypeToList(null, i);
+                }
             }
 
             listBox1.ClearSelected();
@@ -263,6 +272,13 @@ namespace DeidentifyDPC
             listBox1.Items.Add("[" + tname + "] " + path);
         }
 
+        private string getTypeNameFromList(string item)
+        {
+            string typeName = Regex.Match(item, @"\[(.+)\] .+").Groups[1].ToString();
+            if (typeName == "TYPE?") return null;
+            return typeName;
+        }
+
         private FileType getTypeFromList(string item)
         {
             string typeName = Regex.Match(item, @"\[(.+)\] .+").Groups[1].ToString();
@@ -287,7 +303,7 @@ namespace DeidentifyDPC
             int c = 0;
             foreach (object li in listBox1.Items)
             {
-                FileType ft = getTypeFromList((string)li);
+                FileType ft = getTypeFromList(li.ToString());
                 if (ft != null) c++;
             }
             return c;
