@@ -146,7 +146,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(184, 19);
             this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "0 ファイル匿名化処理可";
+            this.textBox1.Text = "0 ファイル処理可";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
@@ -167,7 +167,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "DeidentifyDPC - DPCテキスト匿名化ツール (ver.1.0)";
+            this.Text = "DeidentifyDPC (ver.1.0)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

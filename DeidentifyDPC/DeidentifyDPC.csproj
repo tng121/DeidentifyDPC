@@ -48,10 +48,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>DBF8BEC70603103C6BB4F999D4719BCED0DBC426</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>D40D29366AFE827113412FB94391B1FBA304C184</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>DeidentifyDPC_一時キー.pfx</ManifestKeyFile>
+    <ManifestKeyFile>DeidentifyDPC_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -63,7 +63,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -118,6 +118,7 @@
     <EmbeddedResource Include="typeSet.resx">
       <DependentUpon>typeSet.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DeidentifyDPC_TemporaryKey.pfx" />
     <None Include="DeidentifyDPC_一時キー.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
