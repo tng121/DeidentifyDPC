@@ -41,10 +41,10 @@ DPCデータから個人情報の識別性を低減する（匿名化※）ツ�
 
 * [DPC導入の影響評価に係る調査データに関するセキュリティ考察](http://amcor.asahikawa-med.ac.jp/modules/xoonips/detail.php?id=2011299459)
 
-## Contributers
+## Contributors
 
 * tng121:某500床以上病院のDPC担当者。業務外時間で初版を作ってしまった。いつ担当を外れるかわからないので、活用できる誰かのために置いてみた。
-* 物申したい方等、ぜひContributerにどうぞ。
+* 物申したい方等、ぜひContributorにどうぞ。
 
 ## 業務として出所の不明なソフトウェアを使うことについて
 
