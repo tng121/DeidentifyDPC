@@ -133,7 +133,7 @@ namespace DeidentifyDPC
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             progressBar1.Value = e.ProgressPercentage;
-            textBox1.Text = e.UserState.ToString() + " ファイル匿名化処理済";
+            textBox1.Text = e.UserState.ToString() + " ファイル処理済";
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -311,7 +311,7 @@ namespace DeidentifyDPC
 
         private void displayProcessableFiles()
         {
-            textBox1.Text = countProcessableFiles() + " ファイル匿名化処理可";
+            textBox1.Text = countProcessableFiles() + " ファイル処理可";
         }
 
         private string deidentify(string line, FileType type)
