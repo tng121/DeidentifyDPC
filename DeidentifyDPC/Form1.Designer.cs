@@ -167,7 +167,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "DeidentifyDPC - DPCテキスト匿名化ツール (ver.1.0)";
+            this.Text = "DeidentifyDPC (ver.1.0)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -160,9 +160,9 @@
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(12, 12);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(164, 16);
+            this.checkBox1.Size = new System.Drawing.Size(212, 16);
             this.checkBox1.TabIndex = 11;
-            this.checkBox1.Text = "データ識別番号を仮名化する";
+            this.checkBox1.Text = "データ識別番号を連結可能匿名化する";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2

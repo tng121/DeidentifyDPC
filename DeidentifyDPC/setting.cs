@@ -45,7 +45,7 @@ namespace DeidentifyDPC
             comboBox2.Items.AddRange(cpdes);
             comboBox2.Text = (PostalCodeModifier.TypedConstructor(sd.postalCodeModifyType)).ToString();
 
-            initialAvailableTransRule_.Add(textBox1.Text);
+            if (textBox1.Text != "") initialAvailableTransRule_.Add(textBox1.Text);
             foreach(string str in listBox1.Items)
             {
                 initialAvailableTransRule_.Add(str);
@@ -190,12 +190,12 @@ namespace DeidentifyDPC
             encryptStrings = new List<string>();
             selectedEnc = "";
             types = new Dictionary<string, FileType>();
-            types.Add("FF1", new FileType("FF1", @"FF1_[0-9]{9}_[0-9]{4}\.txt", 2, 9, 6, "A000010", 11, 6, "A000010", 3));
-            types.Add("FF4", new FileType("FF4", @"FF4_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 3));
-            types.Add("Dn", new FileType("Dn", @"Dn_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
-            types.Add("EFn", new FileType("EFn", @"EFn_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
-            types.Add("EFg", new FileType("EFg", @"EFg_[0-9]{9}_[0-9]{4}\.txt", 2, 0, 0, "", 0, 0, "", 4));
-            types.Add("Hn", new FileType("Hn", @"Hn_[0-9]{9}_[0-9]{4}\.txt", 3, 0, 0, "", 0, 0, "", 5));
+            types.Add("FF1", new FileType("FF1", @"^FF1_[0-9]{9}_[0-9]{4}\.txt$", 2, 9, 6, "A000010", 11, 6, "A000010", 3));
+            types.Add("FF4", new FileType("FF4", @"^FF4_[0-9]{9}_[0-9]{4}\.txt$", 2, 0, 0, "", 0, 0, "", 3));
+            types.Add("Dn", new FileType("Dn", @"^Dn_[0-9]{9}_[0-9]{4}\.txt$", 2, 0, 0, "", 0, 0, "", 4));
+            types.Add("EFn", new FileType("EFn", @"^EFn_[0-9]{9}_[0-9]{4}\.txt$", 2, 0, 0, "", 0, 0, "", 4));
+            types.Add("EFg", new FileType("EFg", @"^EFg_[0-9]{9}_[0-9]{4}\.txt$", 2, 0, 0, "", 0, 0, "", 4));
+            types.Add("Hn", new FileType("Hn", @"^Hn_[0-9]{9}_[0-9]{4}\.txt$", 3, 0, 0, "", 0, 0, "", 5));
             types.Add("FF1(H25)", new FileType("FF1(H25)", "", 4, 6, 0, "", 7, 0, "", 10));
             encryptId = true;
             ambiguousBirthDate = false;

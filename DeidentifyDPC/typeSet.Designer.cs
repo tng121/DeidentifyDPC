@@ -33,6 +33,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -55,8 +57,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,6 +129,24 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ファイルタイプの詳細";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(288, 18);
+            this.textBox10.MaxLength = 64;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(166, 19);
+            this.textBox10.TabIndex = 20;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(207, 22);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(75, 12);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "ファイル名規則";
             // 
             // label11
             // 
@@ -308,7 +326,7 @@
             this.textBox1.MaxLength = 64;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(124, 19);
+            this.textBox1.Size = new System.Drawing.Size(96, 19);
             this.textBox1.TabIndex = 0;
             // 
             // button4
@@ -330,24 +348,6 @@
             this.button5.Text = "削除";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(235, 21);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(75, 12);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "ファイル名規則";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(314, 18);
-            this.textBox10.MaxLength = 64;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(140, 19);
-            this.textBox10.TabIndex = 20;
             // 
             // TypeSet
             // 
